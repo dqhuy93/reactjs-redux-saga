@@ -1,12 +1,12 @@
-import { user } from '../constants/actions';
+import { post } from '../constants/actions';
 const initialState = [];
-export default function userReducer(state = initialState, action) {
+export default (state = initialState, action) => {
   const { payload } = action;
   switch (action.type) {
-    case user.FETCH_USER_SUCCESS:
+    case post.FETCH_POST_SUCCESS:
       state = payload;
       return state;
     default:
       return state;
   }
-}
+};

@@ -2,3 +2,14 @@
   max-width: 900px;
   margin: 0 auto;
 }
+
+.scroll-ul {
+  margin-top: 10px;
+  height: 300px;
+  overflow: auto;
+  li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+}

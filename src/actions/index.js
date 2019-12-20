@@ -1,1 +1,2 @@
-export * from './UserAction';
+export * from './PostAction';
+export * from './UiAction';
